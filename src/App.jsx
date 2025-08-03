@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import HeaderOne from './components/HeaderOne'
+import Hero from './components/HomeOne/Hero'
 
 function App() {
   return (
     <>
       <HeaderOne />
+      <Hero />
     </>
   )
 }
