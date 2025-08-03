@@ -5,6 +5,9 @@ import viteLogo from '/vite.svg'
 function App() {
   return (
     <>
+    <div class="alert alert-primary" role="alert">
+      A simple primary alert—check it out!
+    </div>
     </>
   )
 }
