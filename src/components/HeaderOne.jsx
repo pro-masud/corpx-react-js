@@ -1,4 +1,5 @@
-import React from 'react'
+import logoOne from '../assets/img/logo/header-logo.svg'
+import BlackLogoOne from '../assets/img/logo/black-logo.svg'
 
 const HeaderOne = () => {
   return (
@@ -32,10 +33,10 @@ const HeaderOne = () => {
                         <div className="header-main">
                             <div className="logo">
                                 <a href="index.html" className="header-logo">
-                                    <img src="assets/img/logo/header-logo.svg" alt="logo-img" />
+                                    <img src={logoOne} alt="logo-img" />
                                 </a>
                                 <a href="index.html" className="header-logo-2">
-                                    <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                                    <img src={BlackLogoOne} alt="logo-img" />
                                 </a>
                             </div>
                         
