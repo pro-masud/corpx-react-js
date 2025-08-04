@@ -1,6 +1,8 @@
 import heroBg1 from "../../assets/img/bg/heroBg3_1.jpg";
 import heroBg2 from "../../assets/img/bg/heroBg3_2.jpg";
 import heroBg3 from "../../assets/img/bg/heroBg3_3.jpg";
+import bottomThumbnail from "../../assets/img/intro/introBottomThumb3_1.jpg";
+import Shape from "../../assets/img/icon/hero3ArrowIcon.svg";
 
 const Hero = () => {
   return (
@@ -15,7 +17,7 @@ const Hero = () => {
                                 <div className="intro-wrapper style3">
                                     <div className="intro-content">
                                         <h1 data-animation="fadeInUp" data-delay="1.3s">Innovative The Future With Cutting Edge <span>technology.</span> </h1>
-                                        <img src="assets/img/icon/hero3ArrowIcon.svg" alt="icon" data-animation="fadeInUp" data-delay="1.4s" />
+                                        <img src={Shape} alt="icon" data-animation="fadeInUp" data-delay="1.4s" />
                                         <span className="big-text" data-animation="fadeInUp" data-delay="1.4s">SOLUTIONS</span>
                 
                                         <div className="intro-bottom">
@@ -35,7 +37,7 @@ const Hero = () => {
                                                                 </div>
                                                             </div>
                                                             <div className="bottom-thumb">
-                                                                <img src="assets/img/intro/introBottomThumb3_1.jpg" alt="thumb" />
+                                                                <img src={bottomThumbnail} alt="thumb" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -54,7 +56,7 @@ const Hero = () => {
                                 <div className="intro-wrapper style3">
                                     <div className="intro-content">
                                         <h1 data-animation="fadeInUp" data-delay="1.3s">Innovative The Future With Cutting Edge <span>technology.</span> </h1>
-                                        <img src="assets/img/icon/hero3ArrowIcon.svg" alt="icon" data-animation="fadeInUp" data-delay="1.4s" />
+                                        <img src={Shape} alt="icon" data-animation="fadeInUp" data-delay="1.4s" />
                                         <span className="big-text" data-animation="fadeInUp" data-delay="1.4s">SOLUTIONS</span>
                 
                                         <div className="intro-bottom">
@@ -74,7 +76,7 @@ const Hero = () => {
                                                                 </div>
                                                             </div>
                                                             <div className="bottom-thumb">
-                                                                <img src="assets/img/intro/introBottomThumb3_1.jpg" alt="thumb" />
+                                                                <img src={bottomThumbnail} alt="thumb" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -93,7 +95,7 @@ const Hero = () => {
                                 <div className="intro-wrapper style3">
                                     <div className="intro-content">
                                         <h1 data-animation="fadeInUp" data-delay="1.3s">Innovative The Future With Cutting Edge <span>technology.</span> </h1>
-                                        <img src="assets/img/icon/hero3ArrowIcon.svg" alt="icon" data-animation="fadeInUp" data-delay="1.4s" />
+                                        <img src={Shape} alt="icon" data-animation="fadeInUp" data-delay="1.4s" />
                                         <span className="big-text" data-animation="fadeInUp" data-delay="1.4s">SOLUTIONS</span>
                 
                                         <div className="intro-bottom">
@@ -113,7 +115,7 @@ const Hero = () => {
                                                                 </div>
                                                             </div>
                                                             <div className="bottom-thumb">
-                                                                <img src="assets/img/intro/introBottomThumb3_1.jpg" alt="thumb" />
+                                                                <img src={bottomThumbnail} alt="thumb" />
                                                             </div>
                                                         </div>
                                                     </div>
