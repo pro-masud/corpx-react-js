@@ -1,4 +1,6 @@
-import React from 'react'
+import heroBg1 from "../../assets/img/bg/heroBg3_1.jpg";
+import heroBg2 from "../../assets/img/bg/heroBg3_2.jpg";
+import heroBg3 from "../../assets/img/bg/heroBg3_3.jpg";
 
 const Hero = () => {
   return (
@@ -8,7 +10,7 @@ const Hero = () => {
                 <div className="swiper-wrapper">
                     <div className="swiper-slide">
                         <div className="intro-container-wrapper style3">
-                            <div className="slider-image bg-cover"></div>
+                            <div className="slider-image bg-cover"  style={{ backgroundImage: `url(${heroBg1})` }}></div>
                             <div className="container-fluid">
                                 <div className="intro-wrapper style3">
                                     <div className="intro-content">
@@ -47,7 +49,7 @@ const Hero = () => {
                     </div>
                     <div className="swiper-slide">
                         <div className="intro-container-wrapper style3">
-                            <div className="slider-image bg-cover"></div>
+                            <div className="slider-image bg-cover"  style={{ backgroundImage: `url(${heroBg2})` }}></div>
                             <div className="container-fluid">
                                 <div className="intro-wrapper style3">
                                     <div className="intro-content">
@@ -86,7 +88,7 @@ const Hero = () => {
                     </div>
                     <div className="swiper-slide">
                         <div className="intro-container-wrapper style3">
-                            <div className="slider-image bg-cover"></div>
+                            <div className="slider-image bg-cover"  style={{ backgroundImage: `url(${heroBg3})` }}></div>
                             <div className="container-fluid">
                                 <div className="intro-wrapper style3">
                                     <div className="intro-content">
