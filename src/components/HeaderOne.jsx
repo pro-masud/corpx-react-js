@@ -4,8 +4,25 @@ import subMenuOne from '../assets/img/header/home-1.jpg'
 import subMenuTwo from '../assets/img/header/home-2.jpg'
 import subMenuThree from '../assets/img/header/home-3.jpg'
 import subMenuFour from '../assets/img/header/home-4.jpg'
+import { useEffect, useState } from 'react'
 
 const HeaderOne = () => {
+    const [isSticky, setIsSticky] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+        setIsSticky(window.scrollY > 250);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        // Cleanup
+        return () => {
+        window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+
   return (
     <>
         <header className="header-section-3">
@@ -31,7 +48,7 @@ const HeaderOne = () => {
                     </div>
                 </div>
             </div>
-            <div id="header-sticky" className="header-3">
+            <div id="header-sticky" className={`header-3 ${isSticky ? "sticky" : ""}`}>
                 <div className="container-fluid">
                     <div className="mega-menu-wrapper">
                         <div className="header-main">
