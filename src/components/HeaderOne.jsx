@@ -11,14 +11,13 @@ const HeaderOne = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-        setIsSticky(window.scrollY > 250);
+            setIsSticky(window.scrollY > 250);
         };
 
         window.addEventListener("scroll", handleScroll);
 
-        // Cleanup
         return () => {
-        window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener("scroll", handleScroll);
         };
     }, []);
 
