@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const Hero = () => {
-  const swiperRef = useRef(null);
 
   const runAnimations = () => {
     const currentSlide = swiperRef.current?.el?.querySelector(".swiper-slide-active");
@@ -35,24 +34,20 @@ const Hero = () => {
     });
   };
 
-  useEffect(() => {
-    if (!swiperRef.current) return;
+   const swiperRef = useRef(null);
 
-    const swiper = swiperRef.current;
-
-    swiper.params.navigation.prevEl = ".array-prevs";
-    swiper.params.navigation.nextEl = ".array-nexts";
-
-    swiper.navigation.init();
-    swiper.navigation.update();
-
-    runAnimations();
-  }, []);
+    useEffect(() => {
+        if(swiperRef.current) {
+            swiperRef.current.swiper.params.navigation.prevEl = ".array-prevs";
+            swiperRef.current.swiper.params.navigation.nextEl = ".array-nexts";
+            swiperRef.current.swiper.navigation.init();
+            swiperRef.current.swiper.navigation.update();
+        }
+    }, []);
 
   return (
     <section className="intro-section fix">
       <Swiper
-        ref={swiperRef}
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
@@ -61,20 +56,15 @@ const Hero = () => {
           disableOnInteraction: false,
         }}
         navigation={{
-          prevEl: '.array-prevs',
-          nextEl: '.array-nexts',
-        }}
-        pagination={{
-          el: ".dot",
-          clickable: true,
+            prevEl: '.array-prevs',
+            nextEl: '.array-nexts'
         }}
         onSlideChangeTransitionEnd={runAnimations}
         modules={[Autoplay, Pagination, Navigation]}
-        className="hero-slider-3"
       >
         {HeroSide.map((singleService, index) => (
           <SwiperSlide key={index}>
-            <div className="intro-container-wrapper style3">
+             <div className="intro-container-wrapper style3">
                 <div className="slider-image bg-cover" style={{ backgroundImage: `url(${heroBg1})` }}></div>
                 <div className="container-fluid">
                     <div className="intro-wrapper style3">
