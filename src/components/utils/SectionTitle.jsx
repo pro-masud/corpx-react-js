@@ -15,6 +15,11 @@ const SectionTitle = ({title, subTitle, buttonText='', buttonURL='', desc = ''})
                     <i className="fa-solid fa-arrow-up-right"></i>
                 </a>
             )}
+            {desc && (
+                <p class="wow fadeInUp" data-wow-delay=".5s">
+                    {desc}
+                </p>
+            )}
         </div>
     </>
   )
