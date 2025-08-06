@@ -6,85 +6,85 @@ import postTwoImg from '../assets/img//footer/pp2.jpg'
 const FooterOne = () => {
   return (
     <>
-      <footer class="footer-section">
-        <div class="footer-widgets-wrapper footer-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
+      <footer className="footer-section">
+        <div className="footer-widgets-wrapper footer-bg">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div className="single-footer-widget">
+                            <div className="widget-head">
                                 <a href="index.html">
                                     <img src={logoOne} alt="logo-img" />
                                 </a>
                             </div>
-                            <div class="footer-content">
+                            <div className="footer-content">
                                 <p>
                                     Phasellus ultricies aliquam volutpat 
                                     ullamcorper laoreet neque, a lacinia
                                     curabitur lacinia mollis
                                 </p>
-                                <div class="social-icon d-flex align-items-center">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <div className="social-icon d-flex align-items-center">
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-twitter"></i></a>
+                                    <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="#"><i className="fa-brands fa-youtube"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
+                    <div className="col-xl-2 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".5s">
+                        <div className="single-footer-widget">
+                            <div className="widget-head">
                                 <h3>Quick Links</h3>
                             </div>
-                            <ul class="list-area">
+                            <ul className="list-area">
                                 <li>
                                     <a href="about.html">
-                                        <i class="fa-solid fa-chevron-right"></i>
+                                        <i className="fa-solid fa-chevron-right"></i>
                                          About
                                     </a>
                                 </li>
                                 <li>
                                     <a href="service.html">
-                                        <i class="fa-solid fa-chevron-right"></i>
+                                        <i className="fa-solid fa-chevron-right"></i>
                                         Our Services
                                     </a>
                                 </li>
                                 <li>
                                     <a href="blog.html">
-                                        <i class="fa-solid fa-chevron-right"></i>
+                                        <i className="fa-solid fa-chevron-right"></i>
                                         Our Blogs
                                     </a>
                                 </li>
                                 <li>
                                     <a href="faq.html">
-                                        <i class="fa-solid fa-chevron-right"></i>
+                                        <i className="fa-solid fa-chevron-right"></i>
                                         FAQ’S
                                     </a>
                                 </li>
                                 <li>
                                     <a href="contact.html">
-                                        <i class="fa-solid fa-chevron-right"></i>
+                                        <i className="fa-solid fa-chevron-right"></i>
                                         Contact Us
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="single-footer-widget style-margin">
-                            <div class="widget-head">
+                    <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div className="single-footer-widget style-margin">
+                            <div className="widget-head">
                                 <h3>Recent Posts</h3>
                             </div>
-                            <div class="recent-post-area">
-                                <div class="recent-post-items">
-                                    <div class="thumb">
+                            <div className="recent-post-area">
+                                <div className="recent-post-items">
+                                    <div className="thumb">
                                         <img src={postOneImg} alt="post-img" />
                                     </div>
-                                    <div class="content">
-                                        <ul class="post-date">
+                                    <div className="content">
+                                        <ul className="post-date">
                                             <li>
-                                                <i class="fa-solid fa-calendar-days me-2"></i>
+                                                <i className="fa-solid fa-calendar-days me-2"></i>
                                                 20 Feb, 2025
                                             </li>
                                         </ul>
@@ -95,14 +95,14 @@ const FooterOne = () => {
                                         </h6>
                                     </div>
                                 </div>
-                                <div class="recent-post-items mb-0">
-                                    <div class="thumb">
+                                <div className="recent-post-items mb-0">
+                                    <div className="thumb">
                                         <img src={postTwoImg} alt="post-img" />
                                     </div>
-                                    <div class="content">
-                                        <ul class="post-date">
+                                    <div className="content">
+                                        <ul className="post-date">
                                             <li>
-                                                <i class="fa-solid fa-calendar-days me-2"></i>
+                                                <i className="fa-solid fa-calendar-days me-2"></i>
                                                 15 Dec, 2025
                                             </li>
                                         </ul>
@@ -116,29 +116,29 @@ const FooterOne = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
+                    <div className="col-xl-3 col-lg-4 col-md-6 ps-xl-5 wow fadeInUp" data-wow-delay=".9s">
+                        <div className="single-footer-widget">
+                            <div className="widget-head">
                                 <h3>Contact Us</h3>
                             </div>
-                            <div class="footer-content">
-                                <ul class="contact-info">
+                            <div className="footer-content">
+                                <ul className="contact-info">
                                     <li>
-                                        <i class="fas fa-map-marker-alt"></i>
+                                        <i className="fas fa-map-marker-alt"></i>
                                         6391 Elgin St. Celina, USA
                                     </li>
                                     <li>
-                                        <i class="fa-solid fa-phone-volume"></i>
+                                        <i className="fa-solid fa-phone-volume"></i>
                                         <a href="tel:2086660112">+208-666-0112</a>
                                     </li>
                                     <li>
-                                        <i class="fa-regular fa-envelope"></i>
+                                        <i className="fa-regular fa-envelope"></i>
                                         <a href="mailto:corpx.info@webmail.com">corpx.info@webmail.com</a>
                                     </li>
                                 </ul>
-                                <a href="contact.html" class="theme-btn hover-white mt-4">
+                                <a href="contact.html" className="theme-btn hover-white mt-4">
                                     get A Quote
-                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                    <i className="fa-solid fa-arrow-right-long"></i>
                                 </a>
                             </div>
                         </div>
@@ -146,13 +146,13 @@ const FooterOne = () => {
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-wrapper d-flex align-items-center justify-content-between">
-                    <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
+        <div className="footer-bottom">
+            <div className="container">
+                <div className="footer-wrapper d-flex align-items-center justify-content-between">
+                    <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
                         © All Copyright 2025 by <a href="index.html">CorpX</a>
                     </p>
-                    <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
+                    <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                         <li>
                             <a href="contact.html">
                                 Terms & Condition
