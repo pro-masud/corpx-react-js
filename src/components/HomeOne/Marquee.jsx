@@ -4,10 +4,10 @@ import marquee from '../../data/marquee'
 const Marquee = () => {
   return (
     <>
-        <div class="marquee-section section-padding pt-0 fix">
-            <div class="mycustom-marque">
-                <div class="scrolling-wrap">
-                    <div class="comm style1">
+        <div className="marquee-section section-padding pt-0 fix">
+            <div className="mycustom-marque">
+                <div className="scrolling-wrap">
+                    <div className="comm style1">
                         {marquee.map((singleMarquee, index) => 
                             <>
                                 <div className={`cmn-textslide ${singleMarquee.style}`}>{singleMarquee.text}</div>

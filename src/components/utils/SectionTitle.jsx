@@ -1,14 +1,15 @@
 import ShapeImage from "../../assets/img/icon/subTitleIcon.svg";
+import ShapeWhiteImage from "../../assets/img/icon/subTitleIconWhite.svg";
 
-const SectionTitle = ({title, subTitle, buttonText='', buttonURL='', desc = '', descClass =''}) => {
+const SectionTitle = ({title, subTitle, buttonText='', buttonURL='', desc = '', descClass ='', mainClass = '', colorClass = ''}) => {
   return (
     <>
-        <div className="section-title">
-            <span className="subtitle wow fadeInUp">
-                <img src={ShapeImage} alt="icon" />
+        <div className={`section-title ${mainClass}`}>
+            <span className={`subtitle wow fadeInUp ${colorClass}`}>
+                <img src={mainClass ? ShapeWhiteImage : ShapeImage} alt="icon" />
                {subTitle}
             </span>
-            <h2 className="wow fadeInUp" data-wow-delay=".3s">{title}</h2>
+            <h2 className={`wow fadeInUp ${colorClass}`} data-wow-delay=".3s">{title}</h2>
             {buttonText && buttonURL && (
                 <a href={buttonURL} className="theme-btn wow fadeInUp" data-wow-delay=".5s">
                     {buttonText}
