@@ -5,6 +5,7 @@ import Achievement from '../../components/HomeOne/Achievement'
 import WCU from '../../components/HomeOne/WCU'
 import Marquee from '../../components/HomeOne/Marquee'
 import Project from '../../components/HomeOne/Project'
+import WhyChooseUs from '../../components/HomeOne/WhyChooseUs'
 
 const HeroOne = () => {
   return (
@@ -16,6 +17,7 @@ const HeroOne = () => {
         <WCU />
         <Marquee />
         <Project />
+        <WhyChooseUs />
     </>
   )
 }
