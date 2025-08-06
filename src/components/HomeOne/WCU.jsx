@@ -1,4 +1,5 @@
 import React from 'react'
+import { SingleCounter } from '../utils/Counter'
 
 const WCU = () => {
   return (
@@ -12,7 +13,7 @@ const WCU = () => {
                                 <div className="thumb1 bg-cover"><img src="assets/img/wcu/wcuThumb3_1.png" alt="thumb" className="wow img-custom-anim-left" /></div>
                                 <div className="counter-box-card style3 float-bob-y">
                                     <div className="counter">
-                                        <span className="counter-number">10</span>k+
+                                        <SingleCounter value={10} />k+
                                     </div>
                                     <p className="text">Active User</p>
                                 </div>

@@ -4,7 +4,6 @@ import "odometer/themes/odometer-theme-default.css";
 import { useInView } from "react-intersection-observer";
 
 const Counter = ({ number, suffix = '', text, delay = '.8s' }) => {
-
     const [odometerValue, setOdometerValue] = useState(0);
     const [ref, inView] = useInView({
         triggerOnce: true,
@@ -31,4 +30,28 @@ const Counter = ({ number, suffix = '', text, delay = '.8s' }) => {
   )
 }
 
-export default Counter
+const SingleCounter = ({value}) => {
+    const [odometerValue, setOdometerValue] = useState(0);
+        const [ref, inView] = useInView({
+            triggerOnce: true,
+            threshold: 0.3,
+        });
+
+        useEffect(() => {
+            if (inView) {
+            setTimeout(() => {
+                setOdometerValue(value);
+            }, 1000);
+            }
+        }, [inView, value]);
+
+    return (
+        <>
+            <span ref={ref} className="counter-number">
+                <Odometer  value={odometerValue} format="(,ddd).ddd" />
+            </span>
+        </>
+    )
+}
+
+export {Counter, SingleCounter}
