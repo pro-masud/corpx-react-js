@@ -1,6 +1,7 @@
 import achievementImage from "../../assets/img/achievement/achievementThumb3_1.jpg";
 import achievementCircle from "../../assets/img/achievement/achievement-circle.png";
-import Counter from "../utils/Counter";
+import { Counter } from "../utils/Counter";
+
 
 const Achievement = () => {
   return (

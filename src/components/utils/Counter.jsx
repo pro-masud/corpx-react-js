@@ -54,4 +54,28 @@ const SingleCounter = ({value}) => {
     )
 }
 
-export {Counter, SingleCounter}
+const SingleItemCounter = ({ value, tags = "h6" }) => {
+    const [odometerValue, setOdometerValue] = useState(0);
+        const [ref, inView] = useInView({
+            triggerOnce: true,
+            threshold: 0.3,
+        });
+
+        useEffect(() => {
+            if (inView) {
+            setTimeout(() => {
+                setOdometerValue(value);
+            }, 1000);
+            }
+        }, [inView, value]);
+
+    const Tag = tags;
+
+    return (
+        <Tag ref={ref}>
+            <Odometer value={odometerValue} format="(,ddd).ddd" />%
+        </Tag>
+    );
+}
+
+export {Counter, SingleCounter, SingleItemCounter}

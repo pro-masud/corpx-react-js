@@ -1,6 +1,6 @@
 import ShapeImage from "../../assets/img/icon/subTitleIcon.svg";
 
-const SectionTitle = ({title, subTitle, buttonText='', buttonURL='', desc = ''}) => {
+const SectionTitle = ({title, subTitle, buttonText='', buttonURL='', desc = '', descClass =''}) => {
   return (
     <>
         <div className="section-title">
@@ -16,7 +16,7 @@ const SectionTitle = ({title, subTitle, buttonText='', buttonURL='', desc = ''})
                 </a>
             )}
             {desc && (
-                <p className="wow fadeInUp" data-wow-delay=".5s">
+                <p className={`wow fadeInUp ${descClass}`} data-wow-delay=".5s">
                     {desc}
                 </p>
             )}
