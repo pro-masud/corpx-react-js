@@ -2,6 +2,10 @@ import React from 'react';
 import { SingleItemCounter } from '../utils/Counter';
 import aboutThumbOne from "../../assets/img/about/aboutThumb3_1.jpg";
 import aboutThumbTwo from "../../assets/img/about/aboutThumb3_2.jpg";
+import ThumbOne from "../../assets/img/about/aboutProfileThumb3_1.jpg";
+import ThumbTwo from "../../assets/img/about/aboutProfileThumb3_2.jpg";
+import ThumbThree from "../../assets/img/about/aboutProfileThumb3_3.jpg";
+import ThumbFour from "../../assets/img/about/aboutProfileThumb3_4.jpg";
 import SectionTitle from '../utils/SectionTitle';
 
 const WhyChooseUs = () => {
@@ -13,24 +17,11 @@ const WhyChooseUs = () => {
             <div className="col-lg-6">
               <div className="about-thumb">
                 <div className="thumb1">
-                  <img
-                    src={aboutThumbOne}
-                    alt="thumb"
-                    className="wow img-custom-anim-left"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.2s"
-                  />
+                  <img src={aboutThumbOne} alt="thumb" className="wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.2s" />
                 </div>
                 <div className="thumb2">
-                  <img
-                    src={aboutThumbTwo}
-                    alt="thumb"
-                    className="wow img-custom-anim-top"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.4s"
-                  />
+                  <img src={aboutThumbTwo} alt="thumb" className="wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.4s" />
                 </div>
-
                 <div className="counter-box-card style3">
                   <div className="counter">
                     <SingleItemCounter value="25" tags='span' symble='+' />
@@ -39,23 +30,8 @@ const WhyChooseUs = () => {
                 </div>
               </div>
             </div>
-
             <div className="col-lg-6">
               <div className="about-content">
-                {/* <div className="section-title">
-                  <span className="subtitle wow fadeInUp">
-                    <img src="assets/img/icon/subTitleIcon.svg" alt="icon" />
-                    Why Choose Us
-                  </span>
-                  <h2 className="splt-txt wow fadeInUp" data-wow-delay=".3s">
-                    corpx Ultimate Human Resource Solution
-                  </h2>
-                  <p className="wow fadeInUp" data-wow-delay=".5s">
-                    There are many variations of passages of Lopsum available,
-                    but the majority have suffered alteration in form, by
-                    busins injected humor, or randomized words which
-                  </p>
-                </div> */}
                 <SectionTitle title="corpx Ultimate Human Resource Solution" subTitle="Why Choose Us" desc='There are many variations of passages of Lopsum available,
                     but the majority have suffered alteration in form, by
                     busins injected humor, or randomized words which' />
@@ -71,43 +47,26 @@ const WhyChooseUs = () => {
                   </ul>
                   <ul className="checklist wow fadeInUp" data-wow-delay="0.5s">
                     <li>
-                      <i className="fa-solid fa-check"></i> User-friendly
-                      interface
+                      <i className="fa-solid fa-check"></i> User-friendly interface
                     </li>
                     <li>
                       <i className="fa-solid fa-check"></i> Real-time analytics
                     </li>
                   </ul>
                 </div>
-
                 <div className="contact-meta">
                   <div className="btn-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                    <a className="theme-btn" href="about.html">
-                      Read More{' '}
+                    <a className="theme-btn" href="about">
+                      Read More
                       <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
                     </a>
                   </div>
-                  <div
-                    className="profile-meta-2 wow fadeInUp"
-                    data-wow-delay="0.5s"
-                  >
+                  <div className="profile-meta-2 wow fadeInUp" data-wow-delay="0.5s" >
                     <div className="thumb">
-                      <img
-                        src="assets/img/about/aboutProfileThumb3_1.jpg"
-                        alt="thumb"
-                      />
-                      <img
-                        src="assets/img/about/aboutProfileThumb3_2.jpg"
-                        alt="thumb"
-                      />
-                      <img
-                        src="assets/img/about/aboutProfileThumb3_3.jpg"
-                        alt="thumb"
-                      />
-                      <img
-                        src="assets/img/about/aboutProfileThumb3_4.jpg"
-                        alt="thumb"
-                      />
+                      <img src={ThumbOne} alt="thumb" />
+                      <img src={ThumbTwo} alt="thumb" />
+                      <img src={ThumbThree} alt="thumb" />
+                      <img src={ThumbFour} alt="thumb" />
                     </div>
                     <h6>15k+ Active Customer</h6>
                   </div>
