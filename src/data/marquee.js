@@ -19,6 +19,6 @@ const marquee = [
     "style": "style1",
     "iconType": "dot"
   }
-]
+];
 
 export default marquee;

@@ -35,7 +35,6 @@ const WhyChooseUs = () => {
                 <SectionTitle title="corpx Ultimate Human Resource Solution" subTitle="Why Choose Us" desc='There are many variations of passages of Lopsum available,
                     but the majority have suffered alteration in form, by
                     busins injected humor, or randomized words which' />
-
                 <div className="checklist-wrapper">
                   <ul className="checklist wow fadeInUp" data-wow-delay="0.3s">
                     <li>

@@ -6,6 +6,7 @@ import WCU from '../../components/HomeOne/WCU'
 import Marquee from '../../components/HomeOne/Marquee'
 import Project from '../../components/HomeOne/Project'
 import WhyChooseUs from '../../components/HomeOne/WhyChooseUs'
+import Brands from '../../components/HomeOne/Brands'
 
 const HeroOne = () => {
   return (
@@ -18,6 +19,7 @@ const HeroOne = () => {
         <Marquee />
         <Project />
         <WhyChooseUs />
+        <Brands />
     </>
   )
 }
