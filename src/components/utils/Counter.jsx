@@ -54,7 +54,7 @@ const SingleCounter = ({value}) => {
     )
 }
 
-const SingleItemCounter = ({ value, tags = "h6" }) => {
+const SingleItemCounter = ({ value, tags = "h6", symble="%" }) => {
     const [odometerValue, setOdometerValue] = useState(0);
         const [ref, inView] = useInView({
             triggerOnce: true,
@@ -73,7 +73,7 @@ const SingleItemCounter = ({ value, tags = "h6" }) => {
 
     return (
         <Tag ref={ref}>
-            <Odometer value={odometerValue} format="(,ddd).ddd" />%
+            <Odometer value={odometerValue} format="(,ddd).ddd" /> {symble}
         </Tag>
     );
 }

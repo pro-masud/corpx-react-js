@@ -1,4 +1,8 @@
 import React from 'react';
+import { SingleItemCounter } from '../utils/Counter';
+import aboutThumbOne from "../../assets/img/about/aboutThumb3_1.jpg";
+import aboutThumbTwo from "../../assets/img/about/aboutThumb3_2.jpg";
+import SectionTitle from '../utils/SectionTitle';
 
 const WhyChooseUs = () => {
   return (
@@ -10,7 +14,7 @@ const WhyChooseUs = () => {
               <div className="about-thumb">
                 <div className="thumb1">
                   <img
-                    src="assets/img/about/aboutThumb3_1.jpg"
+                    src={aboutThumbOne}
                     alt="thumb"
                     className="wow img-custom-anim-left"
                     data-wow-duration="1.5s"
@@ -19,7 +23,7 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="thumb2">
                   <img
-                    src="assets/img/about/aboutThumb3_2.jpg"
+                    src={aboutThumbTwo}
                     alt="thumb"
                     className="wow img-custom-anim-top"
                     data-wow-duration="1.5s"
@@ -29,7 +33,7 @@ const WhyChooseUs = () => {
 
                 <div className="counter-box-card style3">
                   <div className="counter">
-                    <span className="counter-number">25</span>+
+                    <SingleItemCounter value="25" tags='span' symble='+' />
                   </div>
                   <p className="text">Years Experience</p>
                 </div>
@@ -38,7 +42,7 @@ const WhyChooseUs = () => {
 
             <div className="col-lg-6">
               <div className="about-content">
-                <div className="section-title">
+                {/* <div className="section-title">
                   <span className="subtitle wow fadeInUp">
                     <img src="assets/img/icon/subTitleIcon.svg" alt="icon" />
                     Why Choose Us
@@ -51,7 +55,10 @@ const WhyChooseUs = () => {
                     but the majority have suffered alteration in form, by
                     busins injected humor, or randomized words which
                   </p>
-                </div>
+                </div> */}
+                <SectionTitle title="corpx Ultimate Human Resource Solution" subTitle="Why Choose Us" desc='There are many variations of passages of Lopsum available,
+                    but the majority have suffered alteration in form, by
+                    busins injected humor, or randomized words which' />
 
                 <div className="checklist-wrapper">
                   <ul className="checklist wow fadeInUp" data-wow-delay="0.3s">
