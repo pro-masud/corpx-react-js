@@ -7,6 +7,7 @@ import Marquee from '../../components/HomeOne/Marquee'
 import Project from '../../components/HomeOne/Project'
 import WhyChooseUs from '../../components/HomeOne/WhyChooseUs'
 import Brands from '../../components/HomeOne/Brands'
+import Testimonial from '../../components/HomeOne/Testimonial'
 
 const HeroOne = () => {
   return (
@@ -20,6 +21,7 @@ const HeroOne = () => {
         <Project />
         <WhyChooseUs />
         <Brands />
+        <Testimonial />
     </>
   )
 }
