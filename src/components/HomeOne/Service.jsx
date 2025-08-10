@@ -5,7 +5,7 @@ import serviceItem from '../../data/service'
 const Service = () => {
   return (
     <>
-        <section className="service-section section-padding fix">
+    <section className="service-section section-padding fix">
         <div className="service-container-wrapper style3">
             <div className="container">
                 <div className="service-wrapper style3">

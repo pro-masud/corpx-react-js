@@ -22,14 +22,6 @@ const Testimonial = () => {
             </div>
             <div className="col-xl-7 col-lg-6">
               <div className="slider-area testimonialSliderThree section-padding fix">
-                {/* <div className="section-title text-left mxw-412">
-                  <span className="subtitle wow fadeInUp">
-                    <img src="assets/img/icon/subTitleIcon.svg" alt="icon" />Testimonial
-                  </span>
-                  <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                    What They’re Talking About Agency?
-                  </h2>
-                </div> */}
                 <SectionTitleTwo title=" What They’re Talking About Agency?" subTitle="Testimonial" mainClass='text-left mxw-412' />
                 <Swiper
                   modules={[Navigation]}
@@ -38,6 +30,7 @@ const Testimonial = () => {
                     prevEl: '.slider-prev',
                   }}
                   loop={true}
+                  spaceBetween={35}
                   breakpoints={{
                     0: { slidesPerView: 1 },
                     1200: { slidesPerView: 2 },

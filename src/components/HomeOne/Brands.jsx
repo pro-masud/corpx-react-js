@@ -9,7 +9,7 @@ const Brands = () => {
     <div className="brand-section section-padding pt-0 fix">
         <div className="brand-wrapper style1">
             <div className="container">
-                <div class="brand-title">
+                <div className="brand-title">
                     <h6>1k + brands trust us</h6>
                 </div>
                 <div className="slider-area brandSliderOne">
