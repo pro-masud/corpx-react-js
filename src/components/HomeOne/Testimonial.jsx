@@ -22,15 +22,15 @@ const Testimonial = () => {
             </div>
             <div className="col-xl-7 col-lg-6">
               <div className="slider-area testimonialSliderThree section-padding fix">
-                <div className="section-title text-left mxw-412">
+                {/* <div className="section-title text-left mxw-412">
                   <span className="subtitle wow fadeInUp">
                     <img src="assets/img/icon/subTitleIcon.svg" alt="icon" />Testimonial
                   </span>
                   <h2 className="wow fadeInUp" data-wow-delay=".3s">
                     What They’re Talking About Agency?
                   </h2>
-                </div>
-
+                </div> */}
+                <SectionTitleTwo title=" What They’re Talking About Agency?" subTitle="Testimonial" mainClass='text-left mxw-412' />
                 <Swiper
                   modules={[Navigation]}
                   navigation={{
@@ -71,7 +71,6 @@ const Testimonial = () => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
-
                 <div className="arrow-btn text-end wow fadeInUp" data-wow-delay=".4s">
                   <button className="slider-arrow slider-prev">
                     <i className="fa-sharp fa-regular fa-arrow-left-long"></i>
@@ -80,7 +79,6 @@ const Testimonial = () => {
                     <i className="fa-regular fa-arrow-right-long"></i>
                   </button>
                 </div>
-
               </div>
             </div>
           </div>
