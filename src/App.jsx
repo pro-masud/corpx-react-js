@@ -13,6 +13,8 @@ import BlogGrid from './pages/BlogGrid'
 import BlogStandard from './pages/BlogStandard'
 import BlogDetails from './pages/BlogDetails'
 import ContactUs from './pages/ContactUs'
+import LayoutTwo from './components/LayoutTwo'
+import HomeTwo from './pages/HomeTwo/HomeTwo'
 
 function App() {
   return (
@@ -22,6 +24,22 @@ function App() {
         {/* Home One Layout Routes */}
         <Route path="/" element={<LayoutOne />}>
           <Route index element={<HeroOne />} />
+          <Route path='about' element={<About />} />
+          <Route path='project' element={<OurProject />} />
+          <Route path='project-details' element={<ProjectDetails />} />
+          <Route path='team' element={<Team />} />
+          <Route path='team-details' element={<TeamDetails />} />
+          <Route path='pricing' element={<OurPricing />} />
+          <Route path='faq' element={<OurFaq />} />
+          {/* <Route path='404' element={<notFount404 />} /> */}
+          <Route path='service' element={<Service />} />
+          <Route path='blog' element={<BlogGrid />} />
+          <Route path='service-standard' element={<BlogStandard />} />
+          <Route path='service-details' element={<BlogDetails />} />
+          <Route path='contact' element={<ContactUs />} />
+        </Route>
+        <Route path="/home-two" element={<LayoutTwo />}>
+          <Route index element={<HomeTwo />} />
           <Route path='about' element={<About />} />
           <Route path='project' element={<OurProject />} />
           <Route path='project-details' element={<ProjectDetails />} />

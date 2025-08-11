@@ -10,14 +10,10 @@ const Blog = () => {
             <div className="blog-container-wrapper style3 section-padding fix">
                 <div className="container">
                     <div className="blog-wrapper style3">
-                        {/* <div className="section-title text-center mx-auto">
-                            <span className="subtitle wow fadeInUp"><img src="assets/img/icon/subTitleIcon.svg" alt="icon" />News & Blog</span>
-                            <h2 className="wow fadeInUp" data-wow-delay=".3s">Our Interesting Articles</h2>
-                        </div> */}
                         <SectionTitleTwo title="Our Interesting Articles" subTitle="News & Blog" mainClass='text-center mx-auto' />
                         <div className="row g-4">
                             {blogs.map((singleBlog, index) => (
-                                <div className="col-xl-4 col-md-6">
+                                <div key={index} className="col-xl-4 col-md-6">
                                     <div className="blog-card style4 wow fadeInUp" data-wow-delay=".3s">
                                         <div className="blog-thumb">
                                             <img src={singleBlog.thumb} alt="thumb" />

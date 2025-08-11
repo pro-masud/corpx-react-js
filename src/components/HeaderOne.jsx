@@ -95,7 +95,7 @@ const HeaderOne = () => {
                                                                     <div className="homemenu-thumb mb-15">
                                                                         <img src={subMenuTwo} alt="img" />
                                                                         <div className="demo-button">
-                                                                            <a href="index2" className="theme-btn">
+                                                                            <a href="home-two" className="theme-btn">
                                                                                 Multi Page
                                                                             </a>
                                                                             <a href="index-two-page" className="theme-btn">
@@ -155,7 +155,7 @@ const HeaderOne = () => {
                                                     </a>
                                                     <ul className="submenu">
                                                         <li><a href="/">Home 01</a></li>
-                                                        <li><a href="index2">Home 02</a></li>
+                                                        <li><a href="home-two">Home 02</a></li>
                                                         <li><a href="index3">Home 03</a></li>
                                                         <li><a href="index4">Home 04</a></li>
                                                     </ul>
