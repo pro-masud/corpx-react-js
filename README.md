@@ -1,13 +1,78 @@
-# React + Vite
+# Updated README with English only
+readme_content = """# CorporateX React Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CorporateX React Template is a professional corporate/business website template built with React and Vite.  
+It comes with a modern UI, ready-to-use pages & sections, and fast loading performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ⚡ Built with **React + Vite** for super-fast development
+- 🔄 **HMR** (Hot Module Replacement) support
+- ✅ **ESLint** configured for clean code
+- 🎨 **SCSS** and **Bootstrap** support
+- 📱 Fully responsive design
+- 🧩 Ready pages: Home, About, Services, Projects, Blog, Contact, etc.
+- 📂 Well-structured folder system
+- 🎯 Ready to deploy
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# corpx-react-js
+## 🛠 Tech Stack
+**Dependencies**
+- @fortawesome/fontawesome-svg-core  
+- @fortawesome/free-solid-svg-icons  
+- @fortawesome/react-fontawesome  
+- bootstrap  
+- react  
+- react-circular-progressbar  
+- react-dom  
+- react-intersection-observer  
+- react-odometerjs  
+- react-router-dom  
+- sass  
+- swiper  
+
+**DevDependencies**
+- @eslint/js  
+- @types/react  
+- @types/react-dom  
+- @vitejs/plugin-react  
+- eslint  
+- eslint-plugin-react-hooks  
+- eslint-plugin-react-refresh  
+- globals  
+- vite  
+
+---
+
+## 📂 Project Structure
+```plaintext
+corporatex-react-template/
+│
+├── public/                 # Static assets
+│   └── favicon.ico
+│
+├── src/                    # Main source code
+│   ├── assets/             
+│   │   ├── css/            # Compiled CSS files
+│   │   ├── fonts/          # Custom fonts (Icomoon, FontAwesome)
+│   │   └── img/            # Images
+│   │
+│   ├── components/         # Reusable UI components
+│   │   ├── Home/           # Home page sections (Hero, About, Services, etc.)
+│   │   ├── Layout/         # Header, Footer, Layout wrapper
+│   │   └── utils/          # Small reusable widgets
+│   │
+│   ├── data/               # Static data (blogs, services, projects, etc.)
+│   ├── pages/              # Page components (About, Blog, Contact, etc.)
+│   ├── scss/               # SCSS partials for styling
+│   ├── App.jsx             # Root component
+│   ├── main.jsx            # Entry point
+│   └── vite.config.js      # Vite configuration
+│
+├── .gitignore              
+├── eslint.config.js        
+├── index.html               # HTML template
+├── package.json             
+└── README.md                
