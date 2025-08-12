@@ -7,7 +7,7 @@ const HomeTwo = () => {
   return (
     <>
       <HeroTwo />
-      <Marquee mainClass="fix pb-0" />
+      <Marquee mainClass="pb-0" />
       <ServiceTwo />
     </>
   )

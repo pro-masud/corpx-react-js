@@ -3,6 +3,7 @@ import brands from '../../data/brands'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { Link } from 'react-router-dom';
 
 const Brands = () => {
   return (
@@ -21,10 +22,10 @@ const Brands = () => {
                             {brands.map((logo, index) => (
                                 <SwiperSlide key={index}>
                                     <div className="brand-logo-box">
-                                        <a href="#">
+                                        <Link to="#">
                                             <img className="original" src={logo.original} alt={`Brand Logo ${index + 1}`} />
                                             <img className="gray" src={logo.gray} alt={`Brand Logo ${index + 1}`} />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </SwiperSlide>
                             ))}

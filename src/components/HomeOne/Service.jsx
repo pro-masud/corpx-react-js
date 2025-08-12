@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionTitle from '../utils/SectionTitle'
 import serviceItem from '../../data/service'
+import { Link } from 'react-router-dom'
 
 const Service = () => {
   return (
@@ -25,13 +26,13 @@ const Service = () => {
                                                     <img src={singleServiceItem.serviceIcon} alt="icon" />
                                                 </div>
                                                 <div className="content">
-                                                    <h3 className="title"> <a href={singleServiceItem.buttonURL}>{singleServiceItem.title}</a> </h3> 
+                                                    <h3 className="title"> <Link to={singleServiceItem.buttonURL}>{singleServiceItem.title}</Link> </h3> 
                                                     <p className="text">{singleServiceItem.descpriction}</p>
                                                     <div className="link">
-                                                        <a href={singleServiceItem.buttonURL}>
+                                                        <Link to={singleServiceItem.buttonURL}>
                                                             {singleServiceItem.buttonText}
                                                             <i className="fa-solid fa-arrow-up-right"></i> 
-                                                        </a>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>

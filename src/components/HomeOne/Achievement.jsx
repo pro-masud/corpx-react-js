@@ -1,6 +1,7 @@
 import achievementImage from "../../assets/img/achievement/achievementThumb3_1.jpg";
 import achievementCircle from "../../assets/img/achievement/achievement-circle.png";
 import { Counter } from "../utils/Counter";
+import { Link } from "react-router-dom";
 
 
 const Achievement = () => {
@@ -21,9 +22,9 @@ const Achievement = () => {
                             </div>
                             <div className="col-xl-5 d-flex justify-content-end">
                                 <div className="achievement-contact-meta">
-                                    <a href="/">
+                                    <Link to="/">
                                         <img src={achievementCircle} alt="circle" />
-                                    </a> 
+                                    </Link> 
                                 </div>
                             </div>
                         </div>

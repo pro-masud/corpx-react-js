@@ -2,6 +2,7 @@ import React from 'react'
 
 import SectionTitleTwo from '../utils/SectionTitleTwo'
 import blogs from '../../data/blog'
+import { Link } from 'react-router-dom'
 
 const Blog = () => {
   return (
@@ -23,9 +24,9 @@ const Blog = () => {
                                                 <div className="date"><img src={singleBlog.dateIcon} alt="icon" />{singleBlog.date}</div>
                                                 <div className="comment"><img src={singleBlog.commentIcon} alt="icon" />{singleBlog.comments}</div>
                                             </div>
-                                            <h4><a href={singleBlog.link}>{singleBlog.title} </a></h4>
+                                            <h4><Link to={singleBlog.link}>{singleBlog.title} </Link></h4>
                                             <div className="link-meta">
-                                                <a href={singleBlog.link}>Read more <i className="fa-regular fa-arrow-right"></i></a>
+                                                <Link to={singleBlog.link}>Read more <i className="fa-regular fa-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>

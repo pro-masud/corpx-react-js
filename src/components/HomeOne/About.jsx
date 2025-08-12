@@ -4,6 +4,7 @@ import IconOne from "../../assets/img/icon/04.svg";
 import IconTwo from "../../assets/img/icon/05.svg";
 import ClientThumbnail from "../../assets/img/about/aboutProfileThumb1_1.jpg";
 import SectionTitle from "../utils/SectionTitle";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -48,7 +49,7 @@ const About = () => {
                                 </p>
                                 <div className="contact-meta">
                                     <div className="btn-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                                        <a className="theme-btn" href="about"> Read More <i className="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                                        <Link className="theme-btn" to="/about"> Read More <i className="fa-sharp fa-regular fa-arrow-up-right"></i></Link>
                                     </div>
                                     <div className="profile-meta wow fadeInUp" data-wow-delay="0.5s">
                                         <div className="thumb"><img src={ClientThumbnail} alt="thumb" /></div>

@@ -29,10 +29,10 @@ const ServiceTwo = () => {
                             <div class="service-links">
                                 {serviceItem.map((singleServiceItem, index) => 
                                     <div key={index} class="link-box">
-                                        <a href={singleServiceItem.buttonURL}>
+                                        <Link to={singleServiceItem.buttonURL}>
                                             <div class="text">{singleServiceItem.title}</div>
                                             <div class="icon"><i class="fa-regular fa-arrow-up-right"></i></div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 )}
                             </div>

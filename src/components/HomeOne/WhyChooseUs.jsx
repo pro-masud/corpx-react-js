@@ -7,6 +7,7 @@ import ThumbTwo from "../../assets/img/about/aboutProfileThumb3_2.jpg";
 import ThumbThree from "../../assets/img/about/aboutProfileThumb3_3.jpg";
 import ThumbFour from "../../assets/img/about/aboutProfileThumb3_4.jpg";
 import SectionTitle from '../utils/SectionTitle';
+import { Link } from 'react-router-dom';
 
 const WhyChooseUs = () => {
   return (
@@ -55,10 +56,10 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="contact-meta">
                   <div className="btn-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                    <a className="theme-btn" href="about">
+                    <Link className="theme-btn" href="/about">
                       Read More
                       <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
-                    </a>
+                    </Link>
                   </div>
                   <div className="profile-meta-2 wow fadeInUp" data-wow-delay="0.5s" >
                     <div className="thumb">

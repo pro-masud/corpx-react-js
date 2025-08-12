@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionTitle from '../utils/SectionTitle'
 import projects from '../../data/projects'
+import { Link } from 'react-router-dom'
 
 const Project = () => {
   return (
@@ -24,7 +25,7 @@ const Project = () => {
                             </div>
                             <div className="col-md-3 d-flex justify-content-end">
                                 <div className="project-link">
-                                    <a href={singleProject.link}>{singleProject.linkText}</a>
+                                    <Link to={singleProject.link}>{singleProject.linkText}</Link>
                                 </div>
                             </div>
                         </div>
