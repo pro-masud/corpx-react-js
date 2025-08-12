@@ -1,4 +1,8 @@
-import React from 'react'
+import blackLogoOne from '../assets/img/logo/black-logo.svg'
+import subMenuOne from '../assets/img/header/home-1.jpg'
+import subMenuTwo from '../assets/img/header/home-2.jpg'
+import subMenuThree from '../assets/img/header/home-3.jpg'
+import subMenuFour from '../assets/img/header/home-4.jpg'
 
 const HeaderTwo = () => {
   return (
@@ -8,8 +12,8 @@ const HeaderTwo = () => {
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <div class="logo">
-                        <a href="index.html" class="header-logo-2">
-                            <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                        <a href="/" class="header-logo-2">
+                            <img src={blackLogoOne} alt="logo-img" />
                         </a>
                     </div>
                     <div class="mean__menu-wrapper">
@@ -17,7 +21,7 @@ const HeaderTwo = () => {
                             <nav id="mobile-menu">
                                 <ul>
                                     <li class="has-dropdown active menu-thumb">
-                                        <a href="index.html">
+                                        <a href="/">
                                             Home 
                                             <i class="fa-regular fa-plus"></i>
                                         </a>
@@ -26,9 +30,9 @@ const HeaderTwo = () => {
                                                 <div class="homemenu-items">
                                                     <div class="homemenu">
                                                         <div class="homemenu-thumb">
-                                                            <img src="assets/img/header/home-1.jpg" alt="img" />
+                                                            <img src={subMenuOne} alt="img" />
                                                             <div class="demo-button">
-                                                                <a href="index.html" class="theme-btn">
+                                                                <a href="/" class="theme-btn">
                                                                     Multi Page
                                                                 </a>
                                                                 <a href="index-one-page.html" class="theme-btn">
@@ -44,9 +48,9 @@ const HeaderTwo = () => {
                                                     </div>
                                                     <div class="homemenu">
                                                         <div class="homemenu-thumb mb-15">
-                                                            <img src="assets/img/header/home-2.jpg" alt="img" />
+                                                            <img src={subMenuTwo} alt="img" />
                                                             <div class="demo-button">
-                                                                <a href="index2.html" class="theme-btn">
+                                                                <a href="home-two" class="theme-btn">
                                                                     Multi Page
                                                                 </a>
                                                                 <a href="index-two-page.html" class="theme-btn">
@@ -62,7 +66,7 @@ const HeaderTwo = () => {
                                                     </div>
                                                     <div class="homemenu">
                                                         <div class="homemenu-thumb mb-15">
-                                                            <img src="assets/img/header/home-3.jpg" alt="img" />
+                                                            <img src={subMenuThree} alt="img" />
                                                             <div class="demo-button">
                                                                 <a href="index3.html" class="theme-btn">
                                                                     Multi Page
@@ -80,7 +84,7 @@ const HeaderTwo = () => {
                                                     </div>
                                                     <div class="homemenu">
                                                         <div class="homemenu-thumb mb-15">
-                                                            <img src="assets/img/header/home-4.jpg" alt="img" />
+                                                            <img src={subMenuFour} alt="img" />
                                                             <div class="demo-button">
                                                                 <a href="index4.html" class="theme-btn">
                                                                     Multi Page

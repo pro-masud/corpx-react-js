@@ -3,8 +3,6 @@ import SectionTitleTwo from '../utils/SectionTitleTwo'
 import FeatureImage from "../../assets/img/testimonial/testimonialThumb3_1.jpg";
 import testimonial from '../../data/testimonial';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 const Testimonial = () => {

@@ -5,9 +5,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import HeroSide from "../../data/hero";
 import { useEffect, useRef } from "react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 const Hero = () => {
 
