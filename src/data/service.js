@@ -14,7 +14,7 @@ const serviceItem = [
     },
     {
         id: 2,
-        title: "Corporate Finance",
+        title: "Business Analysis",
         descpriction: "Domination. At the end of the day, going forward, a new normal that has evolved from generation on the runway",
         serviceIcon: serviceItemTwo,
         buttonText: "Explore More",
@@ -22,7 +22,7 @@ const serviceItem = [
     },
     {
         id: 3,
-        title: "Corporate Finance",
+        title: "Project Strategy",
         descpriction: "Domination. At the end of the day, going forward, a new normal that has evolved from generation on the runway",
         serviceIcon: serviceItemThree,
         buttonText: "Explore More",
@@ -30,7 +30,7 @@ const serviceItem = [
     },
     {
         id: 4,
-        title: "Corporate Finance",
+        title: "Technology & Media",
         descpriction: "Domination. At the end of the day, going forward, a new normal that has evolved from generation on the runway",
         serviceIcon: serviceItemFour,
         buttonText: "Explore More",
