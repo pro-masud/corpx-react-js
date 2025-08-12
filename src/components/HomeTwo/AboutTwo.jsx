@@ -4,6 +4,11 @@ import aboutShape2_1 from "../../assets/img/shape/aboutShape2_1.png";
 import iconOne from "../../assets/img/icon/aboutIcon1_1.svg";
 import SectionTitle from "../utils/SectionTitle";
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import latestProject from "../../data/latestProject";
+import 'swiper/css';
+import "swiper/css/effect-fade";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const AboutTwo = () => {
   return (
@@ -53,72 +58,56 @@ const AboutTwo = () => {
             <div className="project-container-wrapper style2">
                 <div className="container">
                     <div className="project-wrapper style2">
-                        <div className="section-title text-center">
+                        {/* <div className="section-title text-center">
                             <div className="subtitle text-white wow fadeInUp"><img
                                     src="assets/img/icon/subTitleIconWhite.svg" alt="icon"/>Our Latest Work </div>
                             <h2 className="wow text-white wow fadeInUp" data-wow-delay=".3s">Explore Our Projects</h2>
-                        </div>
+                        </div> */}
+                        <SectionTitle title="Explore Our Projects" subTitle="Our Latest Work" mainClass="text-center" colorClass="text-white" />
                         <div className="row">
                             <div className="slider-area projectSliderTwo">
-                                <div className="swiper gt-slider" id="projectSliderTwo" data-slider-options='{"loop": true,"autoplay": false,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1},"768":{"slidesPerView":1},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
-                                    <div className="swiper-wrapper">
-                                        <div className="swiper-slide">
-                                            <div className="project-card style2">
-                                                <div className="project-thumb">
-                                                    <img src="assets/img/project/projectCardThumb2_1.jpg" alt="thumb"/>
-                                                </div>
-                                                <div className="project-content">
-                                                    <div className="tag">Corporate</div>
-                                                    <h4 className="project-title"><a href="project-details.html"> Business
-                                                            Growth </a></h4>
-                                                </div>
-                                                <div className="icon"><a href="project-details.html"> <i
-                                                            className="fa-regular fa-arrow-up-right"></i> </a></div>
+                                <div className="swiper gt-slider">
+                                    <Swiper
+                                      slidesPerView={2}
+                                      loop={true}
+                                      autoplay={{
+                                        delay: 2000,
+                                        disableOnInteraction: false,
+                                      }}
+                                      effect="fade" // fade effect
+                                      fadeEffect={{ crossFade: true }}
+                                      speed={1500}
+                                      breakpoints={{
+                                        0: { slidesPerView: 1 },
+                                        576: { slidesPerView: 1 },
+                                        768: { slidesPerView: 1 },
+                                        992: { slidesPerView: 2 },
+                                        1200: { slidesPerView: 2 }
+                                      }}
+                                      spaceBetween={30}
+                                      modules={[Autoplay, Pagination]}
+                                    >
+                                      {latestProject.map((project, index) => (
+                                        <SwiperSlide>
+                                          <div key={index} className="project-card style2">
+                                            <div className="project-thumb">
+                                              <img src={project.image} alt={project.title} />
                                             </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="project-card style2">
-                                                <div className="project-thumb">
-                                                    <img src="assets/img/project/projectCardThumb2_2.jpg" alt="thumb"/>
-                                                </div>
-                                                <div className="project-content">
-                                                    <div className="tag">Corporate</div>
-                                                    <h4 className="project-title"><a href="project-details.html"> Business
-                                                            Growth </a></h4>
-                                                </div>
-                                                <div className="icon"><a href="project-details.html"> <i
-                                                            className="fa-regular fa-arrow-up-right"></i> </a></div>
+                                            <div className="project-content">
+                                              <div className="tag">{project.tag}</div>
+                                              <h4 className="project-title">
+                                                <a href={`/${project.link}`}>{project.title}</a>
+                                              </h4>
                                             </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="project-card style2">
-                                                <div className="project-thumb">
-                                                    <img src="assets/img/project/projectCardThumb2_3.jpg" alt="thumb"/>
-                                                </div>
-                                                <div className="project-content">
-                                                    <div className="tag">Corporate</div>
-                                                    <h4 className="project-title"><a href="project-details.html"> Business
-                                                            Growth </a></h4>
-                                                </div>
-                                                <div className="icon"><a href="project-details.html"> <i
-                                                            className="fa-regular fa-arrow-up-right"></i> </a></div>
+                                            <div className="icon">
+                                              <a href={`/${project.link}`}>
+                                                <i className="fa-regular fa-arrow-up-right"></i>
+                                              </a>
                                             </div>
-                                        </div>
-                                        <div className="swiper-slide">
-                                            <div className="project-card style2">
-                                                <div className="project-thumb">
-                                                    <img src="assets/img/project/projectCardThumb2_2.jpg" alt="thumb"/>
-                                                </div>
-                                                <div className="project-content">
-                                                    <div className="tag">Corporate</div>
-                                                    <h4 className="project-title"><a href="project-details.html"> Business
-                                                            Growth </a></h4>
-                                                </div>
-                                                <div className="icon"><a href="project-details.html"> <i
-                                                            className="fa-regular fa-arrow-up-right"></i> </a></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                          </div>
+                                        </SwiperSlide>
+                                      ))}
+                                    </Swiper>
                                 </div>
                             </div>
                         </div>

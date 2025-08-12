@@ -27,6 +27,30 @@ const latestProject = [
     "tag": "Corporate",
     "title": "Business Growth",
     "link": "project-details"
+  },
+   {
+    "image": projectOne,
+    "tag": "Corporate",
+    "title": "Business Growth",
+    "link": "project-details"
+  },
+  {
+    "image": projectTwo,
+    "tag": "Corporate",
+    "title": "Business Growth",
+    "link": "project-details"
+  },
+  {
+    "image": projectThree,
+    "tag": "Corporate",
+    "title": "Business Growth",
+    "link": "project-details"
+  },
+  {
+    "image": projectFour,
+    "tag": "Corporate",
+    "title": "Business Growth",
+    "link": "project-details"
   }
 ]
 
