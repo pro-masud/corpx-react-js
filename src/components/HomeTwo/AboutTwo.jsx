@@ -60,8 +60,7 @@ const AboutTwo = () => {
                         </div>
                         <div className="row">
                             <div className="slider-area projectSliderTwo">
-                                <div className="swiper gt-slider" id="projectSliderTwo"
-                                    data-slider-options='{"loop": true,"autoplay": false,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1},"768":{"slidesPerView":1},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
+                                <div className="swiper gt-slider" id="projectSliderTwo" data-slider-options='{"loop": true,"autoplay": false,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1},"768":{"slidesPerView":1},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
                                     <div className="swiper-wrapper">
                                         <div className="swiper-slide">
                                             <div className="project-card style2">
