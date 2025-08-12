@@ -6,32 +6,32 @@ import serviceItem from "../../data/service";
 const ServiceTwo = () => {
   return (
     <>
-        <section class="service-section section-padding fix">
-            <div class="light-shape">
+        <section className="service-section section-padding fix">
+            <div className="light-shape">
                 <img src={serviceRight} alt="img" />
             </div>
-            <div class="container">
-                <div class="service-wrapper style2">
-                    <div class="row g-4">
-                        <div class="col-xl-5 col-lg-6">
-                            <div class="service-content">
+            <div className="container">
+                <div className="service-wrapper style2">
+                    <div className="row g-4">
+                        <div className="col-xl-5 col-lg-6">
+                            <div className="service-content">
                                 <SectionTitle title="Innovative Business Solution" subTitle="Popular Services" desc="There are many variations of passages of Lom
                                         Ipsum available, but the majority have suffered alteration in form, by injected
                                         humor, or randomized words which" />
 
-                                <div class="btn-wrapper wow fadeInUp" data-wow-delay="0.3s">
-                                    <Link class="theme-btn" to="/service-details"> View All Services <i
-                                    class="fa-sharp fa-regular fa-arrow-up-right"></i></Link>
+                                <div className="btn-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                                    <Link className="theme-btn" to="/service-details"> View All Services <i
+                                    className="fa-sharp fa-regular fa-arrow-up-right"></i></Link>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-7 col-lg-6">
-                            <div class="service-links">
+                        <div className="col-xl-7 col-lg-6">
+                            <div className="service-links">
                                 {serviceItem.map((singleServiceItem, index) => 
-                                    <div key={index} class="link-box">
+                                    <div key={index} className="link-box">
                                         <Link to={singleServiceItem.buttonURL}>
-                                            <div class="text">{singleServiceItem.title}</div>
-                                            <div class="icon"><i class="fa-regular fa-arrow-up-right"></i></div>
+                                            <div className="text">{singleServiceItem.title}</div>
+                                            <div className="icon"><i className="fa-regular fa-arrow-up-right"></i></div>
                                         </Link>
                                     </div>
                                 )}
