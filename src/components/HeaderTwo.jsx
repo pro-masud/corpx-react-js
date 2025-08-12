@@ -12,19 +12,19 @@ const HeaderTwo = () => {
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <div class="logo">
-                        <a href="/" class="header-logo-2">
+                        <Link to="/" class="header-logo-2">
                             <img src={blackLogoOne} alt="logo-img" />
-                        </a>
+                        </Link>
                     </div>
                     <div class="mean__menu-wrapper">
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul>
                                     <li class="has-dropdown active menu-thumb">
-                                        <a href="/">
+                                        <Link to="/">
                                             Home 
                                             <i class="fa-regular fa-plus"></i>
-                                        </a>
+                                        </Link>
                                         <ul class="submenu has-homemenu">
                                             <li>
                                                 <div class="homemenu-items">
@@ -32,12 +32,12 @@ const HeaderTwo = () => {
                                                         <div class="homemenu-thumb">
                                                             <img src={subMenuOne} alt="img" />
                                                             <div class="demo-button">
-                                                                <a href="/" class="theme-btn">
+                                                                <Link to="/" class="theme-btn">
                                                                     Multi Page
-                                                                </a>
-                                                                <a href="index-one-page.html" class="theme-btn">
+                                                                </Link>
+                                                                <Link to="index-one-page.html" class="theme-btn">
                                                                     One Page
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
@@ -50,12 +50,12 @@ const HeaderTwo = () => {
                                                         <div class="homemenu-thumb mb-15">
                                                             <img src={subMenuTwo} alt="img" />
                                                             <div class="demo-button">
-                                                                <a href="home-two" class="theme-btn">
+                                                                <Link to="home-two" class="theme-btn">
                                                                     Multi Page
-                                                                </a>
-                                                                <a href="index-two-page.html" class="theme-btn">
+                                                                </Link>
+                                                                <Link to="index-two-page.html" class="theme-btn">
                                                                     One Page
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
@@ -68,12 +68,12 @@ const HeaderTwo = () => {
                                                         <div class="homemenu-thumb mb-15">
                                                             <img src={subMenuThree} alt="img" />
                                                             <div class="demo-button">
-                                                                <a href="index3.html" class="theme-btn">
+                                                                <Link to="index3.html" class="theme-btn">
                                                                     Multi Page
-                                                                </a>
-                                                                <a href="index-three-page.html" class="theme-btn">
+                                                                </Link>
+                                                                <Link to="index-three-page.html" class="theme-btn">
                                                                     One Page
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
@@ -86,12 +86,12 @@ const HeaderTwo = () => {
                                                         <div class="homemenu-thumb mb-15">
                                                             <img src={subMenuFour} alt="img" />
                                                             <div class="demo-button">
-                                                                <a href="index4.html" class="theme-btn">
+                                                                <Link to="index4.html" class="theme-btn">
                                                                     Multi Page
-                                                                </a>
-                                                                <a href="index-four-page.html" class="theme-btn">
+                                                                </Link>
+                                                                <Link to="index-four-page.html" class="theme-btn">
                                                                     One Page
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                         <div class="homemenu-content text-center">
@@ -105,67 +105,67 @@ const HeaderTwo = () => {
                                         </ul>
                                     </li>
                                     <li class="has-dropdown active d-xl-none">
-                                        <a href="index.html" class="border-none">
+                                        <Link to="index.html" class="border-none">
                                         Home
-                                        </a>
+                                        </Link>
                                         <ul class="submenu">
-                                            <li><a href="index.html">Home 01</a></li>
-                                            <li><a href="index2.html">Home 02</a></li>
-                                            <li><a href="index3.html">Home 03</a></li>
-                                            <li><a href="index4.html">Home 04</a></li>
+                                            <li><Link to="index.html">Home 01</Link></li>
+                                            <li><Link to="index2.html">Home 02</Link></li>
+                                            <li><Link to="index3.html">Home 03</Link></li>
+                                            <li><Link to="index4.html">Home 04</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="about.html">About Us</a>
+                                        <Link to="about.html">About Us</Link>
                                     </li>
                                     <li class="has-dropdown">
-                                        <a href="blog.html">
+                                        <Link to="blog.html">
                                             Pages
                                             <i class="fa-regular fa-plus"></i>
-                                        </a>
+                                        </Link>
                                         <ul class="submenu">
-                                            <li><a href="project.html">Our Project</a></li>
-                                            <li><a href="project-details.html">Project Details</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-details.html">Team Details</a></li>
-                                            <li><a href="pricing.html">Our Pricing</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="faq.html">Our Faq</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
+                                            <li><Link to="project.html">Our Project</Link></li>
+                                            <li><Link to="project-details.html">Project Details</Link></li>
+                                            <li><Link to="team.html">Team</Link></li>
+                                            <li><Link to="team-details.html">Team Details</Link></li>
+                                            <li><Link to="pricing.html">Our Pricing</Link></li>
+                                            <li><Link to="gallery.html">Gallery</Link></li>
+                                            <li><Link to="faq.html">Our Faq</Link></li>
+                                            <li><Link to="404.html">404 Page</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="service-details.html">
+                                        <Link to="service-details.html">
                                             Services
                                             <i class="fa-regular fa-plus"></i>
-                                        </a>
+                                        </Link>
                                         <ul class="submenu">
-                                            <li><a href="service.html">Service Page</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
+                                            <li><Link to="service.html">Service Page</Link></li>
+                                            <li><Link to="service-details.html">Service Details</Link></li>
                                         </ul>
                                     </li>
                                 <li>
-                                        <a href="blog-details.html">
+                                        <Link to="blog-details.html">
                                             news
                                             <i class="fa-regular fa-plus"></i>
-                                        </a>
+                                        </Link>
                                         <ul class="submenu">
-                                            <li><a href="blog.html">Blog Grid</a></li>
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><Link to="blog.html">Blog Grid</Link></li>
+                                            <li><Link to="blog-standard.html">Blog Standard</Link></li>
+                                            <li><Link to="blog-details.html">Blog Details</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact Us</a>
+                                        <Link to="contact.html">Contact Us</Link>
                                     </li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
                     <div class="header-right d-flex justify-content-end align-items-center">
-                        <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a>
+                        <Link to="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></Link>
                         <div class="header-button">
-                            <a href="contact.html" class="theme-btn">Get In Touch <i class="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                            <Link to="contact.html" class="theme-btn">Get In Touch <i class="fa-sharp fa-regular fa-arrow-up-right"></i></Link>
                         </div>
                         <div class="header__hamburger d-xl-block my-auto">
                             <div class="sidebar__toggle">
