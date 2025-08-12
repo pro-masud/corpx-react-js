@@ -3,6 +3,7 @@ import subMenuOne from '../assets/img/header/home-1.jpg'
 import subMenuTwo from '../assets/img/header/home-2.jpg'
 import subMenuThree from '../assets/img/header/home-3.jpg'
 import subMenuFour from '../assets/img/header/home-4.jpg'
+import { Link } from 'react-router-dom'
 
 const HeaderTwo = () => {
   return (
@@ -12,7 +13,7 @@ const HeaderTwo = () => {
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <div class="logo">
-                        <Link to="/" class="header-logo-2">
+                        <Link to="/home-two" class="header-logo-2">
                             <img src={blackLogoOne} alt="logo-img" />
                         </Link>
                     </div>

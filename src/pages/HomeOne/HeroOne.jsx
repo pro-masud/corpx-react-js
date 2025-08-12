@@ -18,7 +18,7 @@ const HeroOne = () => {
         <About />
         <Achievement />
         <WCU />
-        <Marquee />
+        <Marquee mainClass="fix pt-0" />
         <Project />
         <WhyChooseUs />
         <Brands />
