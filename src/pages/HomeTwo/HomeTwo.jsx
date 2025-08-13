@@ -6,6 +6,8 @@ import AboutTwo from '../../components/HomeTwo/AboutTwo'
 import CoreFeature from '../../components/HomeTwo/CoreFeature'
 import Brands from '../../components/HomeOne/Brands'
 import WhyChooseUsTwo from '../../components/HomeTwo/WhyChooseUsTwo'
+import WorkProcess from '../../components/HomeTwo/WorkProcess'
+import Team from '../../components/HomeTwo/Team'
 
 const HomeTwo = () => {
   return (
@@ -17,6 +19,8 @@ const HomeTwo = () => {
       <CoreFeature />
       <Brands />
       <WhyChooseUsTwo />
+      <WorkProcess />
+      <Team />
     </>
   )
 }
