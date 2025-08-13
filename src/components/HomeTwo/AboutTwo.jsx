@@ -58,11 +58,6 @@ const AboutTwo = () => {
             <div className="project-container-wrapper style2">
                 <div className="container">
                     <div className="project-wrapper style2">
-                        {/* <div className="section-title text-center">
-                            <div className="subtitle text-white wow fadeInUp"><img
-                                    src="assets/img/icon/subTitleIconWhite.svg" alt="icon"/>Our Latest Work </div>
-                            <h2 className="wow text-white wow fadeInUp" data-wow-delay=".3s">Explore Our Projects</h2>
-                        </div> */}
                         <SectionTitle title="Explore Our Projects" subTitle="Our Latest Work" mainClass="text-center" colorClass="text-white" />
                         <div className="row">
                             <div className="slider-area projectSliderTwo">
