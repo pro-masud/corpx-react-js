@@ -4,6 +4,7 @@ import Marquee from '../../components/HomeOne/Marquee'
 import ServiceTwo from '../../components/HomeTwo/ServiceTwo'
 import AboutTwo from '../../components/HomeTwo/AboutTwo'
 import CoreFeature from '../../components/HomeTwo/CoreFeature'
+import Brands from '../../components/HomeOne/Brands'
 
 const HomeTwo = () => {
   return (
@@ -13,6 +14,7 @@ const HomeTwo = () => {
       <ServiceTwo />
       <AboutTwo />
       <CoreFeature />
+      <Brands />
     </>
   )
 }
