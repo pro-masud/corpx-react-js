@@ -3,6 +3,7 @@ import HeroTwo from '../../components/HomeTwo/HeroTwo'
 import Marquee from '../../components/HomeOne/Marquee'
 import ServiceTwo from '../../components/HomeTwo/ServiceTwo'
 import AboutTwo from '../../components/HomeTwo/AboutTwo'
+import CoreFeature from '../../components/HomeTwo/CoreFeature'
 
 const HomeTwo = () => {
   return (
@@ -11,6 +12,7 @@ const HomeTwo = () => {
       <Marquee mainClass="pb-0" />
       <ServiceTwo />
       <AboutTwo />
+      <CoreFeature />
     </>
   )
 }
