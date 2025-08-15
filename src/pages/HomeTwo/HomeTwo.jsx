@@ -9,6 +9,7 @@ import WhyChooseUsTwo from '../../components/HomeTwo/WhyChooseUsTwo'
 import WorkProcess from '../../components/HomeTwo/WorkProcess'
 import Team from '../../components/HomeTwo/Team'
 import TestimonialTwo from '../../components/HomeTwo/TestimonialTwo'
+import FAQ from '../../components/HomeTwo/FAQ'
 
 const HomeTwo = () => {
   return (
@@ -23,6 +24,7 @@ const HomeTwo = () => {
       <WorkProcess />
       <Team />
       <TestimonialTwo />
+      <FAQ />
     </>
   )
 }

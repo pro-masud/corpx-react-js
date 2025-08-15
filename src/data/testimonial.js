@@ -1,6 +1,7 @@
 import clientImageThumbleOne from "../assets/img/testimonial/testimonialCardThumb1_1.jpg";
 import clientImageThumbleTwo from "../assets/img/testimonial/testimonialCardThumb1_2.jpg";
 import clientImageThumbleThree from "../assets/img/testimonial/testimonialProfileThumb3_1.jpg";
+import QuoteIcon1_1 from "../assets/img/icon/QuoteIcon1_1.svg";
 
 
 const testimonial = [
@@ -9,21 +10,24 @@ const testimonial = [
     "designation": "Nursing Assistant",
     "thumb": clientImageThumbleOne,
     "text": "Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean",
-    "rating": 5
+    "rating": 5,
+    "icon": QuoteIcon1_1
   },
   {
     "name": "Cameron Williamson",
     "designation": "Web Developer",
     "thumb": clientImageThumbleTwo,
     "text": "Mauris vitae mi in neque volutpat placerat. Fusce in dictum nunc, a bibendum nunc. Donec porta nibh nec urna volutpat fermentum.",
-    "rating": 4
+    "rating": 4,
+    "icon": QuoteIcon1_1
   },
   {
     "name": "Cameron Williamson",
     "designation": "Web Developer",
     "thumb": clientImageThumbleThree,
     "text": "Mauris vitae mi in neque volutpat placerat. Fusce in dictum nunc, a bibendum nunc. Donec porta nibh nec urna volutpat fermentum.",
-    "rating": 5
+    "rating": 5,
+    "icon": QuoteIcon1_1
   }
 ];
 
