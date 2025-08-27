@@ -1,14 +1,17 @@
-import React from 'react'
+import sideLogo from "../../assets/img/logo/logo.svg";
+import arrowImage from "../../assets/img/hero/arrow.png";
+import featureImage from "../../assets/img/hero/01.jpg";
+import { SingleCounter } from "../utils/Counter";
 
 const HeroThree = () => {
   return (
     <>
-        <section class="hero-section hero-1 fix">
-            <div class="hero-social">
-                <a href="index.html" class="hero-logo">
-                    <img src="assets/img/logo/logo.svg" alt="img" />
+        <section className="hero-section hero-1 fix">
+            <div className="hero-social">
+                <a href="index.html" className="hero-logo">
+                    <img src={sideLogo} alt="img" />
                 </a>
-                <ul class="social-list">
+                <ul className="social-list">
                     <li>
                         <a href="#">Facebook</a>
                         <a href="#">LinkedIn</a>
@@ -16,31 +19,31 @@ const HeroThree = () => {
                     </li>
                 </ul>
             </div>
-            <div class="container-fluid">
-                <div class="row g-4">
-                    <div class="col-lg-6">
-                        <div class="hero-content">
-                            <h1 class="wow fadeInUp" data-wow-delay=".3s">Bringing your vision to life with <span>innovative design</span></h1>
-                            <div class="arrow-icon">
-                                <img src="assets/img/hero/arrow.png" alt="img" />
+            <div className="container-fluid">
+                <div className="row g-4">
+                    <div className="col-lg-6">
+                        <div className="hero-content">
+                            <h1 className="wow fadeInUp" data-wow-delay=".3s">Bringing your vision to life with <span>innovative design</span></h1>
+                            <div className="arrow-icon">
+                                <img src={arrowImage} alt="img" />
                             </div>
-                            <div class="hero-counter-items">
-                                <div class="counter-box">
-                                    <h2><span class="counter-number">4.98</span></h2>
-                                    <div class="content">
-                                        <div class="star">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-regular fa-star"></i>
+                            <div className="hero-counter-items">
+                                <div className="counter-box">
+                                    <h2><SingleCounter value="4.98" /></h2>
+                                    <div className="content">
+                                        <div className="star">
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-solid fa-star"></i>
+                                            <i className="fa-regular fa-star"></i>
                                         </div>
                                         <p>Best rated agency</p>
                                     </div>
                                 </div>
-                                <div class="counter-box">
-                                    <h2><span class="counter-number">98</span>+</h2>
-                                    <div class="content">
+                                <div className="counter-box">
+                                    <h2><SingleCounter value="98" />+</h2>
+                                    <div className="content">
                                         <p>
                                             Genuine repeated
                                         </p>
@@ -50,9 +53,9 @@ const HeroThree = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="hero-image">
-                            <img src="assets/img/hero/01.jpg" alt="img" />
+                    <div className="col-lg-6">
+                        <div className="hero-image">
+                            <img src={featureImage} alt="img" />
                         </div>
                     </div>
                 </div>

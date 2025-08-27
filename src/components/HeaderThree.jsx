@@ -8,96 +8,96 @@ import { Link } from 'react-router-dom'
 const HeaderThree = () => {
   return (
    <>
-        <header id="header-sticky" class="header-1">
-            <div class="container-fluid">
-                <div class="mega-menu-wrapper">
-                    <div class="header-main">
-                        <div class="logo">
-                            <Link to="/" class="header-logo-2">
+        <header id="header-sticky" className="header-1">
+            <div className="container-fluid">
+                <div className="mega-menu-wrapper">
+                    <div className="header-main">
+                        <div className="logo">
+                            <Link to="/" className="header-logo-2">
                                 <img src={blackLogoOne} alt="logo-img" />
                             </Link>
                         </div>
-                        <div class="header-right d-flex justify-content-end align-items-center">
-                            <div class="mean__menu-wrapper">
-                                <div class="main-menu">
+                        <div className="header-right d-flex justify-content-end align-items-center">
+                            <div className="mean__menu-wrapper">
+                                <div className="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li class="has-dropdown active menu-thumb">
+                                            <li className="has-dropdown active menu-thumb">
                                                 <Link to="/">
                                                     Home 
-                                                    <i class="fa-regular fa-plus"></i>
+                                                    <i className="fa-regular fa-plus"></i>
                                                 </Link>
-                                                <ul class="submenu has-homemenu">
+                                                <ul className="submenu has-homemenu">
                                                     <li>
-                                                        <div class="homemenu-items">
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb">
+                                                        <div className="homemenu-items">
+                                                            <div className="homemenu">
+                                                                <div className="homemenu-thumb">
                                                                     <img src={subMenuOne} alt="img" />
-                                                                    <div class="demo-button">
-                                                                        <Link to="/" class="theme-btn">
+                                                                    <div className="demo-button">
+                                                                        <Link to="/" className="theme-btn">
                                                                             Multi Page
                                                                         </Link>
-                                                                        <Link to="index-one-page.html" class="theme-btn">
+                                                                        <Link to="index-one-page.html" className="theme-btn">
                                                                             One Page
                                                                         </Link>
                                                                     </div>
                                                                 </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
+                                                                <div className="homemenu-content text-center">
+                                                                    <h4 className="homemenu-title">
                                                                         Home 01
                                                                     </h4>
                                                                 </div>
                                                             </div>
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb mb-15">
+                                                            <div className="homemenu">
+                                                                <div className="homemenu-thumb mb-15">
                                                                     <img src={subMenuTwo} alt="img" />
-                                                                    <div class="demo-button">
-                                                                        <Link to="/home-two" class="theme-btn">
+                                                                    <div className="demo-button">
+                                                                        <Link to="/home-two" className="theme-btn">
                                                                             Multi Page
                                                                         </Link>
-                                                                        <Link to="index-two-page.html" class="theme-btn">
+                                                                        <Link to="index-two-page.html" className="theme-btn">
                                                                             One Page
                                                                         </Link>
                                                                     </div>
                                                                 </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
+                                                                <div className="homemenu-content text-center">
+                                                                    <h4 className="homemenu-title">
                                                                         Home 02
                                                                     </h4>
                                                                 </div>
                                                             </div>
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb mb-15">
+                                                            <div className="homemenu">
+                                                                <div className="homemenu-thumb mb-15">
                                                                     <img src={subMenuThree} alt="img" />
-                                                                    <div class="demo-button">
-                                                                        <Link to="/home-three" class="theme-btn">
+                                                                    <div className="demo-button">
+                                                                        <Link to="/home-three" className="theme-btn">
                                                                             Multi Page
                                                                         </Link>
-                                                                        <Link to="index-three-page.html" class="theme-btn">
+                                                                        <Link to="index-three-page.html" className="theme-btn">
                                                                             One Page
                                                                         </Link>
                                                                     </div>
                                                                 </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
+                                                                <div className="homemenu-content text-center">
+                                                                    <h4 className="homemenu-title">
                                                                         Home 03
                                                                     </h4>
                                                                 </div>
                                                             </div>
-                                                            <div class="homemenu">
-                                                                <div class="homemenu-thumb mb-15">
+                                                            <div className="homemenu">
+                                                                <div className="homemenu-thumb mb-15">
                                                                     <img src={subMenuFour} alt="img" />
-                                                                    <div class="demo-button">
-                                                                        <Link to="/home-four" class="theme-btn">
+                                                                    <div className="demo-button">
+                                                                        <Link to="/home-four" className="theme-btn">
                                                                             Multi Page
                                                                         </Link>
-                                                                        <Link to="index-four-page.html" class="theme-btn">
+                                                                        <Link to="index-four-page.html" className="theme-btn">
                                                                             One Page
                                                                         </Link>
                                                                     </div>
                                                                 </div>
-                                                                <div class="homemenu-content text-center">
-                                                                    <h4 class="homemenu-title">
+                                                                <div className="homemenu-content text-center">
+                                                                    <h4 className="homemenu-title">
                                                                         Home 04
                                                                     </h4>
                                                                 </div>
@@ -106,11 +106,11 @@ const HeaderThree = () => {
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="has-dropdown active d-xl-none">
-                                                <Link to="/" class="border-none">
+                                            <li className="has-dropdown active d-xl-none">
+                                                <Link to="/" className="border-none">
                                                 Home
                                                 </Link>
-                                                <ul class="submenu">
+                                                <ul className="submenu">
                                                     <li><Link to="/">Home 01</Link></li>
                                                     <li><Link to="/home-two">Home 02</Link></li>
                                                     <li><Link to="/home-three">Home 03</Link></li>
@@ -120,12 +120,12 @@ const HeaderThree = () => {
                                             <li>
                                                 <Link to="/about">About Us</Link>
                                             </li>
-                                            <li class="has-dropdown">
+                                            <li className="has-dropdown">
                                                 <Link to="/blog">
                                                     Pages
-                                                    <i class="fa-regular fa-plus"></i>
+                                                    <i className="fa-regular fa-plus"></i>
                                                 </Link>
-                                                <ul class="submenu">
+                                                <ul className="submenu">
                                                     <li><Link to="/project">Our Project</Link></li>
                                                     <li><Link to="/project-details">Project Details</Link></li>
                                                     <li><Link to="/team">Team</Link></li>
@@ -138,9 +138,9 @@ const HeaderThree = () => {
                                             <li>
                                                 <Link to="/service-details">
                                                     Services
-                                                    <i class="fa-regular fa-plus"></i>
+                                                    <i className="fa-regular fa-plus"></i>
                                                 </Link>
-                                                <ul class="submenu">
+                                                <ul className="submenu">
                                                     <li><Link to="/service">Service Page</Link></li>
                                                     <li><Link to="service-details.html">Service Details</Link></li>
                                                 </ul>
@@ -148,9 +148,9 @@ const HeaderThree = () => {
                                         <li>
                                                 <Link to="/blog-details">
                                                     news
-                                                    <i class="fa-regular fa-plus"></i>
+                                                    <i className="fa-regular fa-plus"></i>
                                                 </Link>
-                                                <ul class="submenu">
+                                                <ul className="submenu">
                                                     <li><Link to="/blog">Blog Grid</Link></li>
                                                     <li><Link to="/blog-standard">Blog Standard</Link></li>
                                                     <li><Link to="/blog-details">Blog Details</Link></li>
@@ -163,9 +163,9 @@ const HeaderThree = () => {
                                     </nav>
                                 </div>
                             </div>
-                            <div class="header__hamburger d-xl-block my-auto">
-                                <div class="sidebar__toggle">
-                                    <div class="header-bar">
+                            <div className="header__hamburger d-xl-block my-auto">
+                                <div className="sidebar__toggle">
+                                    <div className="header-bar">
                                         <span></span>
                                         <span></span>
                                         <span></span>
