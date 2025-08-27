@@ -15,6 +15,8 @@ import BlogDetails from './pages/BlogDetails';
 import ContactUs from './pages/ContactUs';
 import LayoutTwo from './components/LayoutTwo';
 import HomeTwo from './pages/HomeTwo/HomeTwo';
+import LayoutThree from './components/LayoutThree';
+import HomeThree from './pages/HomeThree/HomeThree';
 
 function App() {
   return (
@@ -39,6 +41,22 @@ function App() {
 
           <Route path="/home-two" element={<LayoutTwo />}>
             <Route index element={<HomeTwo />} />
+            <Route path="about" element={<About />} />
+            <Route path="project" element={<OurProject />} />
+            <Route path="project-details" element={<ProjectDetails />} />
+            <Route path="team" element={<Team />} />
+            <Route path="team-details" element={<TeamDetails />} />
+            <Route path="pricing" element={<OurPricing />} />
+            <Route path="faq" element={<OurFaq />} />
+            <Route path="service" element={<Service />} />
+            <Route path="blog" element={<BlogGrid />} />
+            <Route path="blog-standard" element={<BlogStandard />} />
+            <Route path="blog-details" element={<BlogDetails />} />
+            <Route path="contact" element={<ContactUs />} />
+          </Route>
+
+          <Route path="/home-three" element={<LayoutThree />}>
+            <Route index element={<HomeThree />} />
             <Route path="about" element={<About />} />
             <Route path="project" element={<OurProject />} />
             <Route path="project-details" element={<ProjectDetails />} />

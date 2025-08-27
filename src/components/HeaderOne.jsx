@@ -114,7 +114,7 @@ const HeaderOne = () => {
                                                                     <div className="homemenu-thumb mb-15">
                                                                         <img src={subMenuThree} alt="img" />
                                                                         <div className="demo-button">
-                                                                            <Link to="index3" className="theme-btn">
+                                                                            <Link to="/home-three" className="theme-btn">
                                                                                 Multi Page
                                                                             </Link>
                                                                             <Link to="index-three-page" className="theme-btn">
@@ -132,7 +132,7 @@ const HeaderOne = () => {
                                                                     <div className="homemenu-thumb mb-15">
                                                                         <img src={subMenuFour} alt="img" />
                                                                         <div className="demo-button">
-                                                                            <Link to="index4" className="theme-btn">
+                                                                            <Link to="/home-four" className="theme-btn">
                                                                                 Multi Page
                                                                             </Link>
                                                                             <Link to="index-four-page" className="theme-btn">
@@ -157,8 +157,8 @@ const HeaderOne = () => {
                                                     <ul className="submenu">
                                                         <li><Link to="/">Home 01</Link></li>
                                                         <li><Link to="/home-two">Home 02</Link></li>
-                                                        <li><Link to="index3">Home 03</Link></li>
-                                                        <li><Link to="index4">Home 04</Link></li>
+                                                        <li><Link to="/home-three">Home 03</Link></li>
+                                                        <li><Link to="/home-four">Home 04</Link></li>
                                                     </ul>
                                                 </li>
                                                 <li>

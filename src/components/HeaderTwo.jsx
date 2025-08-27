@@ -69,7 +69,7 @@ const HeaderTwo = () => {
                                                         <div className="homemenu-thumb mb-15">
                                                             <img src={subMenuThree} alt="img" />
                                                             <div className="demo-button">
-                                                                <Link to="index3.html" className="theme-btn">
+                                                                <Link to="/home-three" className="theme-btn">
                                                                     Multi Page
                                                                 </Link>
                                                                 <Link to="index-three-page.html" className="theme-btn">
@@ -87,7 +87,7 @@ const HeaderTwo = () => {
                                                         <div className="homemenu-thumb mb-15">
                                                             <img src={subMenuFour} alt="img" />
                                                             <div className="demo-button">
-                                                                <Link to="index4.html" className="theme-btn">
+                                                                <Link to="/home-four" className="theme-btn">
                                                                     Multi Page
                                                                 </Link>
                                                                 <Link to="index-four-page.html" className="theme-btn">
@@ -106,58 +106,57 @@ const HeaderTwo = () => {
                                         </ul>
                                     </li>
                                     <li className="has-dropdown active d-xl-none">
-                                        <Link to="index.html" className="border-none">
+                                        <Link to="/" className="border-none">
                                         Home
                                         </Link>
                                         <ul className="submenu">
-                                            <li><Link to="index.html">Home 01</Link></li>
-                                            <li><Link to="index2.html">Home 02</Link></li>
-                                            <li><Link to="index3.html">Home 03</Link></li>
-                                            <li><Link to="index4.html">Home 04</Link></li>
+                                            <li><Link to="/">Home 01</Link></li>
+                                            <li><Link to="/home-two">Home 02</Link></li>
+                                            <li><Link to="/home-three">Home 03</Link></li>
+                                            <li><Link to="/home-four">Home 04</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link to="about.html">About Us</Link>
+                                        <Link to="/about">About Us</Link>
                                     </li>
                                     <li className="has-dropdown">
-                                        <Link to="blog.html">
+                                        <Link to="/blog">
                                             Pages
                                             <i className="fa-regular fa-plus"></i>
                                         </Link>
                                         <ul className="submenu">
-                                            <li><Link to="project.html">Our Project</Link></li>
-                                            <li><Link to="project-details.html">Project Details</Link></li>
-                                            <li><Link to="team.html">Team</Link></li>
-                                            <li><Link to="team-details.html">Team Details</Link></li>
-                                            <li><Link to="pricing.html">Our Pricing</Link></li>
-                                            <li><Link to="gallery.html">Gallery</Link></li>
-                                            <li><Link to="faq.html">Our Faq</Link></li>
-                                            <li><Link to="404.html">404 Page</Link></li>
+                                            <li><Link to="/project">Our Project</Link></li>
+                                            <li><Link to="/project-details">Project Details</Link></li>
+                                            <li><Link to="/team">Team</Link></li>
+                                            <li><Link to="/team-details">Team Details</Link></li>
+                                            <li><Link to="/pricing">Our Pricing</Link></li>
+                                            <li><Link to="/gallery">Gallery</Link></li>
+                                            <li><Link to="/faq">Our Faq</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link to="service-details.html">
+                                        <Link to="/service-details">
                                             Services
                                             <i className="fa-regular fa-plus"></i>
                                         </Link>
                                         <ul className="submenu">
-                                            <li><Link to="service.html">Service Page</Link></li>
-                                            <li><Link to="service-details.html">Service Details</Link></li>
+                                            <li><Link to="/service">Service Page</Link></li>
+                                            <li><Link to="/service-details">Service Details</Link></li>
                                         </ul>
                                     </li>
                                 <li>
-                                        <Link to="blog-details.html">
+                                        <Link to="/blog-details">
                                             news
                                             <i className="fa-regular fa-plus"></i>
                                         </Link>
                                         <ul className="submenu">
-                                            <li><Link to="blog.html">Blog Grid</Link></li>
-                                            <li><Link to="blog-standard.html">Blog Standard</Link></li>
-                                            <li><Link to="blog-details.html">Blog Details</Link></li>
+                                            <li><Link to="/blog">Blog Grid</Link></li>
+                                            <li><Link to="/blog-standard">Blog Standard</Link></li>
+                                            <li><Link to="/blog-details">Blog Details</Link></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <Link to="contact.html">Contact Us</Link>
+                                        <Link to="/contact">Contact Us</Link>
                                     </li>
                                 </ul>
                             </nav>
@@ -166,7 +165,7 @@ const HeaderTwo = () => {
                     <div className="header-right d-flex justify-content-end align-items-center">
                         <Link to="#0" className="search-trigger search-icon"><i className="fa-regular fa-magnifying-glass"></i></Link>
                         <div className="header-button">
-                            <Link to="contact.html" className="theme-btn">Get In Touch <i className="fa-sharp fa-regular fa-arrow-up-right"></i></Link>
+                            <Link to="/contact" className="theme-btn">Get In Touch <i className="fa-sharp fa-regular fa-arrow-up-right"></i></Link>
                         </div>
                         <div className="header__hamburger d-xl-block my-auto">
                             <div className="sidebar__toggle">
