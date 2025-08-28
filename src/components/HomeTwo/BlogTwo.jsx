@@ -34,7 +34,7 @@ const BlogTwo = () => {
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 {blogTwoToo.map((singleBlog, index) => (
-                                    <div class="blog-card style3 mb-30 wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                                    <div key={index} class="blog-card style3 mb-30 wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.2s">
                                         <div class="thumb img-shine">
                                             <Link to="blog-details.html"> <img src={singleBlog.thumb}
                                                     alt="thumb" /></Link>
