@@ -4,6 +4,7 @@ import projectThree from '../../data/projectThree'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import "swiper/css/effect-fade";
+import { Link } from 'react-router-dom';
 
 const ProjectThree = () => {
   return (
@@ -42,11 +43,12 @@ const ProjectThree = () => {
                                                 <div className="project-content">
                                                     <div className="content">
                                                         <div className="tag">{singleProject.tag}</div>
-                                                        <h4><a href="project-details.html">{singleProject.title}</a></h4>
+                                                        <h4><Link to={singleProject.link}>{singleProject.title}</Link></h4>
                                                     </div>
                                                     <div className="link-meta">
-                                                        <a href="project-details.html"><i
-                                                                className="fa-sharp fa-regular fa-arrow-up-right"></i></a>
+                                                        <Link to={singleProject.link}>
+                                                            <i className="fa-sharp fa-regular fa-arrow-up-right"></i>
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>

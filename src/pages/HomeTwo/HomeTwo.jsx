@@ -20,7 +20,7 @@ const HomeTwo = () => {
       <ServiceTwo />
       <AboutTwo />
       <CoreFeature />
-      <Brands />
+      <Brands mainClass='pt-0 fix' />
       <WhyChooseUsTwo />
       <WorkProcess />
       <Team />

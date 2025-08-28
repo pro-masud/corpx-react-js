@@ -21,7 +21,7 @@ const HeroOne = () => {
         <Marquee mainClass="fix pt-0" />
         <Project />
         <WhyChooseUs />
-        <Brands />
+        <Brands mainClass='pt-0 fix' />
         <Testimonial />
         <Blog />
     </>
