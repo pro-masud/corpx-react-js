@@ -2,7 +2,6 @@ import teamthree from "../../data/teamthree";
 import SectionTitleTwo from "../utils/SectionTitleTwo";
 
 const TeamThree = () => {
-  console.log(teamthree);
   return (
     <>
       <section className="team-section team-bg-area section-padding fix">

@@ -7,6 +7,7 @@ import PopularPost from "../../components/HomeThree/PopularPost";
 import ProjectThree from "../../components/HomeThree/projectThree";
 import ServiceThree from "../../components/HomeThree/ServiceThree";
 import TeamThree from "../../components/HomeThree/TeamThree";
+import TestimonialThree from "../../components/HomeThree/TestimonialThree";
 
 const HomeThree = () => {
   return (
@@ -20,6 +21,7 @@ const HomeThree = () => {
       <ServiceThree />
       <Brands />
       <TeamThree />
+      <TestimonialThree />
     </>
   );
 };
