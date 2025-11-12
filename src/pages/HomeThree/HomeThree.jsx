@@ -1,12 +1,12 @@
-import React from 'react'
-import HeroThree from '../../components/HomeThree/HeroThree'
-import AboutThree from '../../components/HomeThree/AboutThree'
-import PopularPost from '../../components/HomeThree/PopularPost'
-import CompanyBenefits from '../../components/HomeThree/CompanyBenefits'
-import ProjectThree from '../../components/HomeThree/projectThree'
-import Marquee from '../../components/HomeOne/Marquee'
-import ServiceThree from '../../components/HomeThree/ServiceThree'
-import Brands from '../../components/HomeOne/Brands'
+import Brands from "../../components/HomeOne/Brands";
+import Marquee from "../../components/HomeOne/Marquee";
+import AboutThree from "../../components/HomeThree/AboutThree";
+import CompanyBenefits from "../../components/HomeThree/CompanyBenefits";
+import HeroThree from "../../components/HomeThree/HeroThree";
+import PopularPost from "../../components/HomeThree/PopularPost";
+import ProjectThree from "../../components/HomeThree/projectThree";
+import ServiceThree from "../../components/HomeThree/ServiceThree";
+import TeamThree from "../../components/HomeThree/TeamThree";
 
 const HomeThree = () => {
   return (
@@ -16,11 +16,12 @@ const HomeThree = () => {
       <PopularPost />
       <CompanyBenefits />
       <ProjectThree />
-      <Marquee mainClass='pt-0' />
+      <Marquee mainClass="pt-0" />
       <ServiceThree />
-      <Brands/>
+      <Brands />
+      <TeamThree />
     </>
-  )
-}
+  );
+};
 
-export default HomeThree
+export default HomeThree;
