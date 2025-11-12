@@ -65,7 +65,7 @@ const TestimonialThree = () => {
                 </div>
               </div>
               <div className="col-xl-7 col-md-6">
-                <div class="slider-area testimonialSliderOne">
+                <div className="slider-area testimonialSliderOne">
                   <Swiper
                     modules={[Navigation]}
                     navigation={{
