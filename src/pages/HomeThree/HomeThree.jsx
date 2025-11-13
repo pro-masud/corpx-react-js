@@ -1,6 +1,7 @@
 import Brands from "../../components/HomeOne/Brands";
 import Marquee from "../../components/HomeOne/Marquee";
 import AboutThree from "../../components/HomeThree/AboutThree";
+import BlogThree from "../../components/HomeThree/BlogThree";
 import CompanyBenefits from "../../components/HomeThree/CompanyBenefits";
 import ContactForm from "../../components/HomeThree/ContactForm";
 import HeroThree from "../../components/HomeThree/HeroThree";
@@ -24,6 +25,7 @@ const HomeThree = () => {
       <TeamThree />
       <TestimonialThree />
       <ContactForm />
+      <BlogThree />
     </>
   );
 };

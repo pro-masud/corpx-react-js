@@ -61,7 +61,6 @@ const BlogTwo = () => {
                     >
                       <div className="thumb img-shine">
                         <Link to="blog-details.html">
-                          {" "}
                           <img src={singleBlog.thumb} alt="thumb" />
                         </Link>
                       </div>
