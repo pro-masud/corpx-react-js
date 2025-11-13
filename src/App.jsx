@@ -1,22 +1,24 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LayoutOne from './components/LayoutOne';
-import HeroOne from './pages/HomeOne/HeroOne';
-import About from './pages/About';
-import OurProject from './pages/OurProject';
-import ProjectDetails from './pages/ProjectDetails';
-import Team from './pages/Team';
-import TeamDetails from './pages/TeamDetails';
-import OurPricing from './pages/OurPricing';
-import OurFaq from './pages/OurFaq';
-import Service from './pages/Service';
-import BlogGrid from './pages/BlogGrid';
-import BlogStandard from './pages/BlogStandard';
-import BlogDetails from './pages/BlogDetails';
-import ContactUs from './pages/ContactUs';
-import LayoutTwo from './components/LayoutTwo';
-import HomeTwo from './pages/HomeTwo/HomeTwo';
-import LayoutThree from './components/LayoutThree';
-import HomeThree from './pages/HomeThree/HomeThree';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import LayoutFour from "./components/LayoutFour";
+import LayoutOne from "./components/LayoutOne";
+import LayoutThree from "./components/LayoutThree";
+import LayoutTwo from "./components/LayoutTwo";
+import About from "./pages/About";
+import BlogDetails from "./pages/BlogDetails";
+import BlogGrid from "./pages/BlogGrid";
+import BlogStandard from "./pages/BlogStandard";
+import ContactUs from "./pages/ContactUs";
+import HomeFour from "./pages/HomeFour/HomeFour";
+import HeroOne from "./pages/HomeOne/HeroOne";
+import HomeThree from "./pages/HomeThree/HomeThree";
+import HomeTwo from "./pages/HomeTwo/HomeTwo";
+import OurFaq from "./pages/OurFaq";
+import OurPricing from "./pages/OurPricing";
+import OurProject from "./pages/OurProject";
+import ProjectDetails from "./pages/ProjectDetails";
+import Service from "./pages/Service";
+import Team from "./pages/Team";
+import TeamDetails from "./pages/TeamDetails";
 
 function App() {
   return (
@@ -69,6 +71,10 @@ function App() {
             <Route path="blog-standard" element={<BlogStandard />} />
             <Route path="blog-details" element={<BlogDetails />} />
             <Route path="contact" element={<ContactUs />} />
+          </Route>
+
+          <Route path="/home-four" element={<LayoutFour />}>
+            <Route index element={<HomeFour />} />
           </Route>
         </Routes>
       </Router>
